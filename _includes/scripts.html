@@ -3,14 +3,17 @@
     function enableDarkMode() {
         document.body.classList.add("darkmode");
         localStorage.setItem("isDarkMode", "true");
+        document.getElementById("darkmodeCheck").checked = true;
     }
     function disableDarkMode() {
         document.body.classList.remove("darkmode");
         localStorage.setItem("isDarkMode", "false");
+        document.getElementById("darkmodeCheck").checked = false;
     }
     let isDarkMode = localStorage.getItem("isDarkMode");
     if (isDarkMode === "true") {
         enableDarkMode();
+        document.getElementById("darkmodeCheck").checked = true;
     }
     const darkmodeButton = document.querySelector(".darkmode-button");
     darkmodeButton.addEventListener("click", function () {

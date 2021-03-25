@@ -45,25 +45,47 @@
     <div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
     <br>
 
+    <div class="darkmode-button">
+        <input type="checkbox" id="darkmodeCheck">
+        <span></span>
+    </div>
+
+    <a href="/">
+        Home
+    </a>
+
+    <br><br>
+    experience
+
+    
+    <br><br>
+    <a href="/tag/experience">
+        experience
+    </a>
+    March 23, 2021
+    <a href="/post-2">
+        <h2>2 Consectetur adipiscing elit tincidunt</h2>
+    </a>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.
     
 
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+
     <script>
     // Darkmode
     function enableDarkMode() {
         document.body.classList.add("darkmode");
         localStorage.setItem("isDarkMode", "true");
+        document.getElementById("darkmodeCheck").checked = true;
     }
     function disableDarkMode() {
         document.body.classList.remove("darkmode");
         localStorage.setItem("isDarkMode", "false");
+        document.getElementById("darkmodeCheck").checked = false;
     }
     let isDarkMode = localStorage.getItem("isDarkMode");
     if (isDarkMode === "true") {
         enableDarkMode();
+        document.getElementById("darkmodeCheck").checked = true;
     }
     const darkmodeButton = document.querySelector(".darkmode-button");
     darkmodeButton.addEventListener("click", function () {

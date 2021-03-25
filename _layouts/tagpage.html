@@ -14,7 +14,20 @@
     <div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
     <br>
 
+    <div class="darkmode-button">
+        <input type="checkbox" id="darkmodeCheck">
+        <span></span>
+    </div>
+
+    <a href="/">
+        Home
+    </a>
+
+    <br><br>
+    {{ page.tag }}
+
     {% for post in site.tags[page.tag] %}
+    <br><br>
     <a href="/tag/{{ page.tag }}">
         {{ page.tag }}
     </a>
@@ -25,10 +38,7 @@
     {{post.preview}}
     {% endfor %}
 
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+
     {% include scripts.html %}
 </body>
 

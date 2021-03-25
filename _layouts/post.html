@@ -14,9 +14,26 @@
     <div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
     <br>
 
+    <div class="darkmode-button">
+        <input type="checkbox" id="darkmodeCheck">
+        <span></span>
+    </div>
+
     <a href="/">
         Home
     </a>
+    <br><br>
+
+    {% for post in site.posts %}
+    <a href="{{post.url}}" style="
+    {% if page.series != post.series %} display: none; {% endif %}
+    {% if page.url == post.url %} color: red; {% endif %}
+    ">
+        {{ post.title }}<br>
+    </a>
+    {% endfor %}
+
+    <br>
     <span>
         {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -33,10 +50,7 @@
     | {{ page.date | date: "%B %-d, %Y" }}
     {{content}}
 
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+
     {% include scripts.html %}
 </body>
 
