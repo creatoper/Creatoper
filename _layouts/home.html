@@ -5,31 +5,55 @@
 {% include head.html %}
 
 <body>
-    <br>
-    <div>Home.html</div>
-    <div id="test-scripts">> Error!</div>
-    <div id="test-creatoper">> Error!</div>
-    <div id="test-styles">> Green: styles.css load successfully!</div>
-    <div id="test-creatopercss">> Green: creatoper.css load successfully!</div>
-    <div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
-    <br>
 
-    <div class="darkmode-button">
-        <input type="checkbox" id="darkmodeCheck">
-        <span></span>
+    <nav role='navigation'>
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Info</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-3">&nbsp;</div>
+        <div class="col-6">
+            <br>
+            <div class="darkmode-button">
+                <input type="checkbox" id="darkmodeCheck">
+                <span></span>
+            </div>
+
+            {% for post in site.posts %}
+            <br><br>
+            <a href="/tag/{{post.tags[0]}}">
+                {{post.tags[0]}}
+            </a>
+            {{ post.date | date: "%B %-d, %Y" }}
+            <a href="{{post.url}}">
+                <h2>{{ post.title }}</h2>
+            </a>
+            {{post.preview}}
+            {% endfor %}
+        </div>
+        <div class="col-3">&nbsp;</div>
     </div>
 
-    {% for post in site.posts %}
-    <br><br>
-    <a href="/tag/{{post.tags[0]}}">
-        {{post.tags[0]}}
-    </a>
-    {{ post.date | date: "%B %-d, %Y" }}
-    <a href="{{post.url}}">
-        <h2>{{ post.title }}</h2>
-    </a>
-    {{post.preview}}
-    {% endfor %}
+
 
 
 

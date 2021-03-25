@@ -26,8 +26,8 @@
 
     {% for post in site.posts %}
     <a href="{{post.url}}" style="
-    {% if page.series != post.series %} display: none; {% endif %}
-    {% if page.url == post.url %} color: red; {% endif %}
+    {% if page.series != post.series or page.series == null %} display: none; {% endif %}
+    {% if page.url == post.url %} color: red; display: block; {% endif %}
     ">
         {{ post.title }}<br>
     </a>
