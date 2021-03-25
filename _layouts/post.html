@@ -2,61 +2,32 @@
 
 ---
 
-<!DOCTYPE html>
-<html lang="en">
 {% include head.html %}
 
-<body>
-    {% include left-bar.html %}
-    <div class="wrapper">
-        <div class="top-bar">
-            <div class="top-text-1">
-                THE JOURNALS
-            </div>
-            <div class="top-text-2" onclick="searchPage()" style="cursor: pointer;">
-                SEARCH
-            </div>
-            <div id="snackbar">
-                Press CTRL + F and search anything!<br>
-                Try '<i>web</i>' or '<i>hackathon</i>' for example.
-            </div>
-        </div>
-        <div class="post-main">
-            <div style="height: 32px;"></div>
-            <span>
-                {% for tag in page.tags %}
-                {% capture tag_name %}{{ tag }}{% endcapture %}
-                <a href="/blog/tag/{{ tag_name }}">
-                    <div class="categories">
-                        {{ tag_name }}
-                    </div>
-                </a>
-                {% endfor %}
-            </span>
-            <div class="categories-fix">&nbsp;</div>
-            <h1>{{ page.title }}</h1>
-            <h5>
-                By
-                <a href="http://buiquangbao.github.io/" target="_blank">
-                    {{ page.author }}
-                </a>
-                | {{ page.date | date: "%B %-d, %Y" }}
-            </h5>
-            <div class="post-content">
-                {{content}}
-            </div>
-            <br><br>
-            <div style="height: 2px; width: 100%; border-bottom: var(--border);"></div>
-            <br><br>
-            <p style="font-weight: 400;">
-                Copyright &copy;
-                <script>document.write(new Date().getFullYear())</script>
-                <a href="http://buiquangbao.github.io/" target="_blank">Bui Quang Bao</a>
-                . All Rights Reserved.
-            </p>
-            <div style="height: 7vh;"></div>
-        </div>
-    </div>
-</body>
+<div id="test">
+    <br>Error!<br>
+</div>
 
-</html>
+<a href="/">
+    Home
+</a>
+<span>
+    {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}">
+        {{ tag_name }}
+    </a>
+    {% endfor %}
+</span>
+<h1>{{ page.title }}</h1>
+By
+<a href="http://buiquangbao.github.io/" target="_blank">
+    {{ page.author }}
+</a>
+| {{ page.date | date: "%B %-d, %Y" }}
+{{content}}
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>

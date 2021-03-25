@@ -82,7 +82,9 @@ Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
 ```
 ![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
 ```
+```
 ![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
+```
 
 <br>
 ```

@@ -2,62 +2,24 @@
 
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-{% include head-for-tag.html %}
+{% include head.html %}
 
-<body>
-    {% include left-bar.html %}
-    <div class="wrapper">
-        <div class="row">
-            <div class="col-6">
-                {% include panel-left.html %}
-            </div>
-            <div class="col-6">
-                <div class="panel-right">
-                    <div class="top-bar">
-                        <div class="top-text-1" style="text-transform: uppercase;">
-                            {{ page.tag }}
-                        </div>
-                        <div class="top-text-2" onclick="searchPage()" style="cursor: pointer;">
-                            SEARCH
-                        </div>
-                        <div id="snackbar">
-                            Press CTRL + F and search anything!<br>
-                            Try '<i>web</i>' or '<i>hackathon</i>' for example.
-                        </div>
-                    </div>
-                    <div class="latest-posts">
+<div id="test">
+    <br>Error!<br>
+</div>
 
+{% for post in site.tags[page.tag] %}
+<a href="/tag/{{ page.tag }}">
+    {{ page.tag }}
+</a>
+{{ post.date | date: "%B %-d, %Y" }}
+<a href="{{post.url}}">
+    <h2>{{ post.title }}</h2>
+</a>
+{{post.preview}}
+{% endfor %}
 
-
-
-                        {% for post in site.tags[page.tag] %}
-                        <div class="post-1">
-                            <a href="/blog/tag/{{ page.tag }}">
-                                <div class="categories">
-                                    {{ page.tag }}
-                                </div>
-                            </a>
-                            <div class="date">
-                                {{ post.date | date: "%B %-d, %Y" }}
-                            </div>
-                            <a href="/blog{{post.url}}">
-                                <h2>{{ post.title }}</h2>
-                            </a>
-                            <div class="post-preview">
-                                {{post.preview}}
-                            </div>
-                        </div>
-                        {% endfor %}
-
-
-                        <br><br><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-
-</html>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
