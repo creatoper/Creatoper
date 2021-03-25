@@ -5,50 +5,86 @@
 {% include head.html %}
 
 <body>
-    <br>
+    <div class="row">
+        <div class="col-3">
+            <div class="side-panel-wrap">
+                <div class="side-panel-left">
+                    <a href="/">
+                        Home
+                    </a>
+                    <div class="darkmode-button">
+                        <input type="checkbox" id="darkmodeCheck">
+                        <span></span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis
+                        volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat
+                        volutpat.
+                    </p>
+                </div>
+            </div>
+            &nbsp;
+        </div>
+        <div class="col-6">
+            <div class="main-panel">
+                <div style="height: 10vh;"></div>
+                <div style="margin-bottom: 3vh;">
+                    {% for tag in page.tags %}
+                    {% capture tag_name %}{{ tag }}{% endcapture %}
+                    <a href="/tag/{{ tag_name }}" style="text-transform: capitalize;">
+                        {{ tag_name }}
+                    </a>
+                    {% endfor %}
+                </div>
+                <h1 style="margin-bottom: 3vh;">{{ page.title }}</h1>
+                <div style="font-size: 14px; margin-bottom: 3vh;">
+                    By
+                    <a href="http://buiquangbao.github.io/" target="_blank">
+                        {{ page.author }}
+                    </a>
+                    | {{ page.date | date: "%B %-d, %Y" }}
+                </div>
+                <div class="content">
+                    {{content}}
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="side-panel-wrap">
+                <div class="side-panel-right">
+                    <div style="margin-bottom: 2vh; text-transform: uppercase;">
+                        {{page.series}}
+                    </div>
+                    <ol>
+                        {% for post in site.posts reversed%}
+                        <a href="{{post.url}}" style="text-decoration: none; font-weight: 400;">
+                            <div class="post-in-series" style="
+                            {% if page.series != post.series or page.series == null %} display: none; {% endif %}
+                            ">
+                                <li style="
+                                {% if page.url == post.url %} color: var(--accent); font-weight: 500;{% endif %}
+                                ">
+                                    {{ post.title }}
+                                </li>
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+            &nbsp;
+        </div>
+    </div>
+    <!-- <br>
     <div>Post.html</div>
     <div id="test-scripts">> Error!</div>
     <div id="test-creatoper">> Error!</div>
     <div id="test-styles">> Green: styles.css load successfully!</div>
     <div id="test-creatopercss">> Green: creatoper.css load successfully!</div>
     <div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
-    <br>
+    <br> -->
 
-    <div class="darkmode-button">
-        <input type="checkbox" id="darkmodeCheck">
-        <span></span>
-    </div>
 
-    <a href="/">
-        Home
-    </a>
-    <br><br>
-
-    {% for post in site.posts %}
-    <a href="{{post.url}}" style="
-    {% if page.series != post.series or page.series == null %} display: none; {% endif %}
-    {% if page.url == post.url %} color: red; display: block; {% endif %}
-    ">
-        {{ post.title }}<br>
-    </a>
-    {% endfor %}
-
-    <br>
-    <span>
-        {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="/tag/{{ tag_name }}">
-            {{ tag_name }}
-        </a>
-        {% endfor %}
-    </span>
-    <h1>{{ page.title }}</h1>
-    By
-    <a href="http://buiquangbao.github.io/" target="_blank">
-        {{ page.author }}
-    </a>
-    | {{ page.date | date: "%B %-d, %Y" }}
-    {{content}}
 
 
     {% include scripts.html %}
