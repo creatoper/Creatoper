@@ -1,0 +1,64 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    {% include left-bar.html %}
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-6">
+                {% include panel-left.html %}
+            </div>
+            <div class="col-6">
+                <div class="panel-right">
+                    <div class="top-bar">
+                        <div class="top-text-1">
+                            LATEST POSTS
+                        </div>
+                        <div class="top-text-2" onclick="searchPage()" style="cursor: pointer;">
+                            SEARCH
+                        </div>
+                        <div id="snackbar">
+                            Press CTRL + F and search anything!<br>
+                            Try '<i>web</i>' or '<i>hackathon</i>' for example.
+                        </div>
+                    </div>
+                    <div class="latest-posts">
+                        {% for post in site.posts %}
+                        <div class="post-1">
+                            <a href="/blog/tag/{{post.tags[0]}}">
+                                <div class="categories">
+                                    {{post.tags[0]}}
+                                </div>
+                            </a>
+                            <div class="date">
+                                {{ post.date | date: "%B %-d, %Y" }}
+                            </div>
+                            <a href="/blog{{post.url}}">
+                                <h2>{{ post.title }}</h2>
+                            </a>
+                            <div class="post-preview">
+                                {{post.preview}}
+                            </div>
+                        </div>
+                        {% endfor %}
+                        <br><br>
+                        <p
+                            style="font-size: 12px; padding: 0 var(--padding-left); font-weight: 400; text-align: right;">
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear())</script> Bui Quang Bao. All Rights
+                            Reserved.
+                        </p>
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
