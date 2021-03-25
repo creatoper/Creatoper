@@ -5,3 +5,4 @@ document.getElementById("test-scripts").innerHTML = "> scripts.js load successfu
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('../sw.js');
 }
+

@@ -45,16 +45,7 @@
     <div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
     <br>
 
-    <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
-    <lord-icon src="https://cdn.lordicon.com//nocovwne.json" trigger="hover" colors="primary:#121331,secondary:#08a88a"
-        style="width:128px;height:128px">
-    </lord-icon>
-
-
-    <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
-    <lord-icon src="https://cdn.lordicon.com//wrprwmwt.json" trigger="hover" colors="primary:#121331,secondary:#08a88a"
-        style="width:128px;height:128px">
-    </lord-icon>
+    <button class="darkmode-button">Toggle Dark Mode</button>
 
     
     <a href="/tag/technology">
@@ -98,7 +89,29 @@
     <br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script>
+    // Darkmode
+    function enableDarkMode() {
+        document.body.classList.add("darkmode");
+        localStorage.setItem("isDarkMode", "true");
+    }
+    function disableDarkMode() {
+        document.body.classList.remove("darkmode");
+        localStorage.setItem("isDarkMode", "false");
+    }
+    let isDarkMode = localStorage.getItem("isDarkMode");
+    if (isDarkMode === "true") {
+        enableDarkMode();
+    }
+    const darkmodeButton = document.querySelector(".darkmode-button");
+    darkmodeButton.addEventListener("click", function () {
+        isDarkMode = localStorage.getItem("isDarkMode");
+        isDarkMode === "true" ? disableDarkMode() : enableDarkMode();
+    });
+</script>
+
+<!-- <script src="../darkmode.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script src="https://unpkg.com/creatoper@1.1.2/creatoper.js" defer></script>
 <!-- <script src="../creatoper/creatoper.js" defer></script> -->
 <script src="../scripts.js" defer></script>

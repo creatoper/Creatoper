@@ -1,11 +1,3 @@
-:root {
-
-}
-
-#test-styles {
-    color: green;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +5,27 @@
     font-family: 'Roboto Mono', sans-serif;
 }
 
+body {
+    --background: #ffffff;
+    --text-1: #000000;
+    --text-2: #585858;
+    transition: all ease 0.3s;
+}
+body.darkmode {
+    --background: #000000;
+    --text-1: #ffffff;
+    --text-2: #adadad;
+}
+body {
+    background: var(--background);
+    color: var(--text-1);
+}
+
 ::selection {
     color: #ffffff;
     background: #000000;
+}
+
+#test-styles {
+    color: green;
 }

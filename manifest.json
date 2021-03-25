@@ -3,7 +3,7 @@
     "short_name": "Creatoper",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#ffffff",
+    "background_color": "#0000ff",
     "theme_color": "#00ff00",
     "description": "Creatoper App",
     "icons": [
@@ -16,12 +16,6 @@
         {
             "src": "../assets/manifest-icon-512.png",
             "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "../assets/apple-icon-180.png",
-            "sizes": "180x180",
             "type": "image/png",
             "purpose": "maskable any"
         }
