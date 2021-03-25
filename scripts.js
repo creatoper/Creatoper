@@ -1,1 +1,2 @@
-document.getElementById("test").innerHTML = "Successful!";
+// Test
+document.getElementById("test-scripts").innerHTML = "> scripts.js load successfully!";

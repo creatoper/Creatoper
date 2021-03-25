@@ -1,24 +1,34 @@
 ---
 
 ---
+
 {% include head.html %}
 
-<div id="test">
-    <br>Error!<br>
-</div>
+<body>
+    <br>
+    <div id="test-scripts">> Error!</div>
+    <div id="test-creatoper">> Error!</div>
+    <div id="test-styles">> This should be green!</div>
+    <div id="test-creatopercss">> This should be green!</div>
+    <div id="test-creatopercontrol">> This should be green!</div>
+    <br>
 
-{% for post in site.posts %}
-<a href="/tag/{{post.tags[0]}}">
-    {{post.tags[0]}}
-</a>
-{{ post.date | date: "%B %-d, %Y" }}
-<a href="{{post.url}}">
-    <h2>{{ post.title }}</h2>
-</a>
-{{post.preview}}
-{% endfor %}
+    {% for post in site.posts %}
+    <a href="/tag/{{post.tags[0]}}">
+        {{post.tags[0]}}
+    </a>
+    {{ post.date | date: "%B %-d, %Y" }}
+    <a href="{{post.url}}">
+        <h2>{{ post.title }}</h2>
+    </a>
+    {{post.preview}}
+    {% endfor %}
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    {% include head.html %}
+</body>
+
+</html>
