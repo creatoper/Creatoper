@@ -36,22 +36,26 @@
 </head>
 
 <body>
+    <!-- Scroll To Top  -->
+    <button onclick="scrollToTop()" id="scrolltotop">&nwarr;</button>
+
+
     <div class="row">
         <div class="col-3">
             <div class="side-panel-wrap">
                 <div class="side-panel-left">
                     <a href="/">
-                        Home
+                        HOME
                     </a>
+                    <br><br><br>
+                    <p style="font-size: 13px; margin-bottom: 6px;">
+                        Dark Mode
+                    </p>
                     <div class="darkmode-button">
                         <input type="checkbox" id="darkmodeCheck">
                         <span></span>
                     </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis
-                        volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat
-                        volutpat.
-                    </p>
+
                 </div>
             </div>
             &nbsp;
@@ -62,25 +66,31 @@
                 <div style="margin-bottom: 3vh;">
                     
                     
-                    <a href="/tag/technology" style="text-transform: capitalize;">
-                        technology
+                    <a href="/tag/technology" style="border: none;">
+                        <mark class="tag">
+                            technology
+                        </mark>
                     </a>
                     
                     
-                    <a href="/tag/web" style="text-transform: capitalize;">
-                        web
+                    <a href="/tag/web" style="border: none;">
+                        <mark class="tag">
+                            web
+                        </mark>
                     </a>
                     
                     
-                    <a href="/tag/markdown" style="text-transform: capitalize;">
-                        markdown
+                    <a href="/tag/markdown" style="border: none;">
+                        <mark class="tag">
+                            markdown
+                        </mark>
                     </a>
                     
                 </div>
                 <h1 style="margin-bottom: 3vh;">Suspendisse sit dolor laoreet quam tempus</h1>
                 <div style="font-size: 14px; margin-bottom: 3vh;">
                     By
-                    <a href="http://buiquangbao.github.io/" target="_blank">
+                    <a href="" target="_blank">
                         Bui Quang Bao
                     </a>
                     | March 18, 2021
@@ -245,13 +255,23 @@ function plus(p1, p2) {
 
 
                 </div>
+                <p>
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear())</script>
+                    Creatoper
+                </p>
             </div>
         </div>
         <div class="col-3">
             <div class="side-panel-wrap">
                 <div class="side-panel-right">
-                    <div style="margin-bottom: 2vh; text-transform: uppercase;">
-                        
+                    <div style="margin-bottom: 2vh;">
+                        <div style="font-weight: 500;">
+                            
+                        </div>
+                        <div style="font-size: 12px;">
+                            
+                        </div>
                     </div>
                     <ol>
                         
@@ -357,6 +377,7 @@ function plus(p1, p2) {
             &nbsp;
         </div>
     </div>
+
     <!-- <br>
     <div>Post.html</div>
     <div id="test-scripts">> Error!</div>

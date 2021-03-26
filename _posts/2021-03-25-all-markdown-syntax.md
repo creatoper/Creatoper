@@ -3,8 +3,9 @@ layout: post
 title: "All markdown syntax"
 date: 2021-03-25 09:50:00 +0700
 author: "Bui Quang Bao"
+authorlink: https://buiquangbao.github.io/
 tags: technology web markdown
-series: series01
+series: RWD101
 preview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim."
 ---
 
