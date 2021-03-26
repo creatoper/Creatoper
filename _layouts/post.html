@@ -8,23 +8,48 @@
     <!-- Scroll To Top  -->
     <button onclick="scrollToTop()" id="scrolltotop">&nwarr;</button>
 
-
     <div class="row">
         <div class="col-3">
             <div class="side-panel-wrap">
                 <div class="side-panel-left">
-                    <a href="/">
-                        HOME
+                    <a href="/" style="border: none;">
+                        <img src="../favicon.png" class="logo">
                     </a>
-                    <br><br><br>
-                    <p style="font-size: 13px; margin-bottom: 6px;">
-                        Dark Mode
-                    </p>
-                    <div class="darkmode-button">
-                        <input type="checkbox" id="darkmodeCheck">
-                        <span></span>
+                    <div id="youarereadingID" class="youarereading hide">
+                        <div style="margin-bottom: 1vh; font-size: 13px;">
+                            You are reading
+                        </div>
+                        <h4 style="margin-bottom: 1vh;">{{ page.title }}</h4>
+                        <div style="font-size: 13px; margin-bottom: 1vh;">
+                            By
+                            <a href="{{page.authorlink}}" target="_blank" style="border: none;">
+                                {{ page.author }}
+                            </a>
+                            | {{ page.date | date: "%B %-d, %Y" }}
+                        </div>
+                        <div style="margin-bottom: 1vh;">
+                            {% for tag in page.tags %}
+                            {% capture tag_name %}{{ tag }}{% endcapture %}
+                            <a href="/tag/{{ tag_name }}" style="border: none;">
+                                <mark class="tag-2">
+                                    {{ tag_name }}
+                                </mark>
+                            </a>
+                            {% endfor %}
+                        </div>
                     </div>
-
+                    <script>
+                        youarereadingID = document.getElementById("youarereadingID");
+                        var myScrollFunc = function () {
+                            var y = window.scrollY;
+                            if (y >= 500) {
+                                youarereadingID.className = "youarereading show"
+                            } else {
+                                youarereadingID.className = "youarereading hide"
+                            }
+                        };
+                        window.addEventListener("scroll", myScrollFunc);
+                    </script>
                 </div>
             </div>
             &nbsp;
@@ -45,7 +70,7 @@
                 <h1 style="margin-bottom: 3vh;">{{ page.title }}</h1>
                 <div style="font-size: 14px; margin-bottom: 3vh;">
                     By
-                    <a href="{{page.authorlink}}" target="_blank">
+                    <a href="{{page.authorlink}}" target="_blank" style="border: none;">
                         {{ page.author }}
                     </a>
                     | {{ page.date | date: "%B %-d, %Y" }}
@@ -67,13 +92,13 @@
                         <div style="font-weight: 500;">
                             {{page.series}}
                         </div>
-                        <div style="font-size: 12px;">
+                        <div style="font-size: 13px;">
                             {% if page.series == "RWD101" %}
-                            This is the name of series of posts
+                            Responsive Web Design Fundamental
                             {% endif %}
                         </div>
                     </div>
-                    <ol>
+                    <ol style="margin-bottom: 2vh;">
                         {% for post in site.posts reversed%}
                         <a href="{{post.url}}" style="text-decoration: none; font-weight: 400;">
                             <div class="post-in-series" style="
@@ -88,6 +113,14 @@
                         </a>
                         {% endfor %}
                     </ol>
+                    <p style="font-size: 13px; margin-bottom: 6px;">
+                        Dark Mode
+                    </p>
+                    <div class="darkmode-button">
+                        <input type="checkbox" id="darkmodeCheck">
+                        <span></span>
+                        <label for="darkmodeCheck">&nbsp;</label>
+                    </div>
                 </div>
             </div>
             &nbsp;

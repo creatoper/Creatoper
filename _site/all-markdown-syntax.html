@@ -39,23 +39,62 @@
     <!-- Scroll To Top  -->
     <button onclick="scrollToTop()" id="scrolltotop">&nwarr;</button>
 
-
     <div class="row">
         <div class="col-3">
             <div class="side-panel-wrap">
                 <div class="side-panel-left">
-                    <a href="/">
-                        HOME
+                    <a href="/" style="border: none;">
+                        <img src="../favicon.png" class="logo">
                     </a>
-                    <br><br><br>
-                    <p style="font-size: 13px; margin-bottom: 6px;">
-                        Dark Mode
-                    </p>
-                    <div class="darkmode-button">
-                        <input type="checkbox" id="darkmodeCheck">
-                        <span></span>
+                    <div id="youarereadingID" class="youarereading hide">
+                        <div style="margin-bottom: 1vh; font-size: 13px;">
+                            You are reading
+                        </div>
+                        <h4 style="margin-bottom: 1vh;">All markdown syntax</h4>
+                        <div style="font-size: 13px; margin-bottom: 1vh;">
+                            By
+                            <a href="https://buiquangbao.github.io/" target="_blank" style="border: none;">
+                                Bui Quang Bao
+                            </a>
+                            | March 25, 2021
+                        </div>
+                        <div style="margin-bottom: 1vh;">
+                            
+                            
+                            <a href="/tag/technology" style="border: none;">
+                                <mark class="tag-2">
+                                    technology
+                                </mark>
+                            </a>
+                            
+                            
+                            <a href="/tag/web" style="border: none;">
+                                <mark class="tag-2">
+                                    web
+                                </mark>
+                            </a>
+                            
+                            
+                            <a href="/tag/markdown" style="border: none;">
+                                <mark class="tag-2">
+                                    markdown
+                                </mark>
+                            </a>
+                            
+                        </div>
                     </div>
-
+                    <script>
+                        youarereadingID = document.getElementById("youarereadingID");
+                        var myScrollFunc = function () {
+                            var y = window.scrollY;
+                            if (y >= 500) {
+                                youarereadingID.className = "youarereading show"
+                            } else {
+                                youarereadingID.className = "youarereading hide"
+                            }
+                        };
+                        window.addEventListener("scroll", myScrollFunc);
+                    </script>
                 </div>
             </div>
             &nbsp;
@@ -90,7 +129,7 @@
                 <h1 style="margin-bottom: 3vh;">All markdown syntax</h1>
                 <div style="font-size: 14px; margin-bottom: 3vh;">
                     By
-                    <a href="https://buiquangbao.github.io/" target="_blank">
+                    <a href="https://buiquangbao.github.io/" target="_blank" style="border: none;">
                         Bui Quang Bao
                     </a>
                     | March 25, 2021
@@ -269,13 +308,13 @@ function plus(p1, p2) {
                         <div style="font-weight: 500;">
                             RWD101
                         </div>
-                        <div style="font-size: 12px;">
+                        <div style="font-size: 13px;">
                             
-                            This is the name of series of posts
+                            Responsive Web Design Fundamental
                             
                         </div>
                     </div>
-                    <ol>
+                    <ol style="margin-bottom: 2vh;">
                         
                         <a href="/post-7" style="text-decoration: none; font-weight: 400;">
                             <div class="post-in-series" style="
@@ -374,6 +413,14 @@ function plus(p1, p2) {
                         </a>
                         
                     </ol>
+                    <p style="font-size: 13px; margin-bottom: 6px;">
+                        Dark Mode
+                    </p>
+                    <div class="darkmode-button">
+                        <input type="checkbox" id="darkmodeCheck">
+                        <span></span>
+                        <label for="darkmodeCheck">&nbsp;</label>
+                    </div>
                 </div>
             </div>
             &nbsp;
