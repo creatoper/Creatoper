@@ -142,6 +142,7 @@ p {
     cursor: var(--scrolltotop-cursor);
     padding: var(--scrolltotop-padding);
     background-color: var(--scrolltotop-background-color);
+    transition: all ease 0.3s;
 } #scrolltotop:hover {
     color: var(--scrolltotop-hover-color);
 }

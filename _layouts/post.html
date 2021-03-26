@@ -6,7 +6,9 @@
 
 <body>
     <!-- Scroll To Top  -->
-    <button onclick="scrollToTop()" id="scrolltotop">&nwarr;</button>
+    <div class="just-display-on-desktop">
+        <button onclick="scrollToTop()" id="scrolltotop" class="just-display-on-desktop">&nwarr;</button>
+    </div>
 
     <div class="row">
         <div class="col-3">
@@ -19,7 +21,9 @@
                         <div style="margin-bottom: 1vh; font-size: 13px;">
                             You are reading
                         </div>
-                        <h4 style="margin-bottom: 1vh;">{{ page.title }}</h4>
+                        <h4 style="margin-bottom: 1vh;">
+                            {{ page.title }}
+                        </h4>
                         <div style="font-size: 13px; margin-bottom: 1vh;">
                             By
                             <a href="{{page.authorlink}}" target="_blank" style="border: none;">
@@ -78,10 +82,13 @@
                 <div class="content">
                     {{content}}
                 </div>
-                <p>
-                    Copyright &copy;
-                    <script>document.write(new Date().getFullYear())</script>
-                    Creatoper
+                <div style="margin: 6vh 0; height: 0.5px; width: 100%; background: var(--grey-line);"></div>
+                <p style="margin-bottom: 7vh; text-align: center;">
+                    <a href="/" style="font-weight: 400; border: none;">
+                        <script>document.write(new Date().getFullYear())</script>
+                        &copy;
+                        Creatoper
+                    </a>
                 </p>
             </div>
         </div>
@@ -121,6 +128,7 @@
                         <span></span>
                         <label for="darkmodeCheck">&nbsp;</label>
                     </div>
+                    <div style="height: 10vh;"></div>
                 </div>
             </div>
             &nbsp;
