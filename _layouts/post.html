@@ -10,11 +10,22 @@
         <button onclick="scrollToTop()" id="scrolltotop" class="just-display-on-desktop">&nwarr;</button>
     </div>
 
-    <!-- Navbar on mobile -->
-    <div class="bottom-nav">
+    <!-- Top Nav on mobile -->
+    <div class="top-nav just-display-on-mobile">
+        <div style="font-size: 24px; font-weight: 600; top: 12px;text-align: center; position: relative;">
+            Creatoper
+        </div>
+    </div>
+
+    <!-- Bottom Nav on mobile -->
+    <div class="bottom-nav just-display-on-mobile">
         <div class="mobile-row-3">
             <div class="col">
-                A
+                <a href="/">
+                    <div class="nav-button">
+                        <img src="../assets/icons/bookmark.svg" class="nav-icon">
+                    </div>
+                </a>
             </div>
             <div class="col">
                 <a href="/">
@@ -24,7 +35,11 @@
                 </a>
             </div>
             <div class="col">
-                C
+                <a href="/">
+                    <div class="nav-button">
+                        <img src="../assets/icons/user.svg" class="nav-icon">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -33,7 +48,7 @@
         <div class="col-3">
             <div class="side-panel-wrap">
                 <div class="side-panel-left">
-                    <a href="/" style="border: none;">
+                    <a href="/" style="border: none;" class="just-display-on-desktop">
                         <img src="../favicon.png" class="logo">
                     </a>
                     <div id="youarereadingID" class="youarereading hide">

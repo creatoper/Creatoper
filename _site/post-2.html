@@ -21,6 +21,7 @@
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="#ff0000" />
     <link rel="apple-touch-icon" href="../assets/apple-icon-180.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -41,11 +42,22 @@
         <button onclick="scrollToTop()" id="scrolltotop" class="just-display-on-desktop">&nwarr;</button>
     </div>
 
-    <!-- Navbar on mobile -->
-    <div class="bottom-nav">
+    <!-- Top Nav on mobile -->
+    <div class="top-nav just-display-on-mobile">
+        <div style="font-size: 24px; font-weight: 600; top: 12px;text-align: center; position: relative;">
+            Creatoper
+        </div>
+    </div>
+
+    <!-- Bottom Nav on mobile -->
+    <div class="bottom-nav just-display-on-mobile">
         <div class="mobile-row-3">
             <div class="col">
-                A
+                <a href="/">
+                    <div class="nav-button">
+                        <img src="../assets/icons/bookmark.svg" class="nav-icon">
+                    </div>
+                </a>
             </div>
             <div class="col">
                 <a href="/">
@@ -55,7 +67,11 @@
                 </a>
             </div>
             <div class="col">
-                C
+                <a href="/">
+                    <div class="nav-button">
+                        <img src="../assets/icons/user.svg" class="nav-icon">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -64,7 +80,7 @@
         <div class="col-3">
             <div class="side-panel-wrap">
                 <div class="side-panel-left">
-                    <a href="/" style="border: none;">
+                    <a href="/" style="border: none;" class="just-display-on-desktop">
                         <img src="../favicon.png" class="logo">
                     </a>
                     <div id="youarereadingID" class="youarereading hide">
