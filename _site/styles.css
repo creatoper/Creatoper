@@ -167,6 +167,59 @@ a {
 
 
 
+.bottom-nav {
+    --nav-height: 7vh;
+    --icon-size: 24px;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav-height);
+    background: var(--background);
+    box-shadow: 0px 0px 10px 4px #00000015;
+}
+.nav-button {
+    height: var(--nav-height);
+    width: 100%;
+}
+.nav-button .nav-icon {
+    height: var(--icon-size);
+    width: var(--icon-size);
+    position: relative;
+    top: calc(var(--nav-height)/2 - var(--icon-size)/2);
+    left: calc(50% - var(--icon-size)/2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .content h1 {
     margin: 24px 0;
