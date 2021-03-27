@@ -1,0 +1,24 @@
+I"<iframe style="width: 42vw; height: 23.625vw; border: 0; background: transparent;" src="https://www.youtube.com/embed/lxxndOskI1o" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="1-open-command-line-and-navigate-to-your-packages-folder">1. Open command line and navigate to your package’s folder</h3>
+
+<h3 id="2-login-your-npm-account">2. Login your npm account</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm login
+</code></pre></div></div>
+
+<p>Note that when you input the password, there is no clue show that you are typing. This will be confused if this is the first time you use the command line.</p>
+
+<h3 id="3-initialize-npm-package-manager">3. Initialize npm package manager</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm init
+</code></pre></div></div>
+
+<p>If you have prepared your package like <a href="/prepare-your-package">this post</a>, all you need to do is just enter.</p>
+
+<h3 id="4-publish-your-package">4. Publish your package</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm publish
+</code></pre></div></div>
+
+:ET

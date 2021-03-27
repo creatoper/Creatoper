@@ -1,1095 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-27T15:31:32+07:00</updated><id>/feed.xml</id><title type="html">Creatoper</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Publish packages to NPM</title><link href="/create-npm-account" rel="alternate" type="text/html" title="Publish packages to NPM" /><published>2021-03-27T08:00:00+07:00</published><updated>2021-03-27T08:00:00+07:00</updated><id>/create-npm-account</id><content type="html" xml:base="/create-npm-account">&lt;p&gt;&lt;img src=&quot;./assets/img/npm/1-npm-landing-page.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;
-&lt;img src=&quot;./assets/img/npm/2-npm-docs.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;
-&lt;img src=&quot;./assets/img/npm/3-npm-sign-up.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;
-&lt;img src=&quot;../assets/img/npm/4-npm-sign-in.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;
-&lt;img src=&quot;../assets/img/npm/5-npm-dashboard.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/npm/1-nodejs-landing-page.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;&lt;/p&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="npm" /><summary type="html"></summary></entry><entry><title type="html">All markdown syntax</title><link href="/all-markdown-syntax" rel="alternate" type="text/html" title="All markdown syntax" /><published>2021-03-25T09:50:00+07:00</published><updated>2021-03-25T09:50:00+07:00</updated><id>/all-markdown-syntax</id><content type="html" xml:base="/all-markdown-syntax">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is an &amp;lt;h1&amp;gt; tag
-## This is an &amp;lt;h2&amp;gt; tag
-### This is an &amp;lt;h3&amp;gt; tag
-#### This is an &amp;lt;h4&amp;gt; tag
-##### This is an &amp;lt;h5&amp;gt; tag
-###### This is an &amp;lt;h6&amp;gt; tag
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;this-is-an-h1-tag&quot;&gt;This is an &amp;lt;h1&amp;gt; tag&lt;/h1&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h2 id=&quot;this-is-an-h2-tag&quot;&gt;This is an &amp;lt;h2&amp;gt; tag&lt;/h2&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h3 id=&quot;this-is-an-h3-tag&quot;&gt;This is an &amp;lt;h3&amp;gt; tag&lt;/h3&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h4 id=&quot;this-is-an-h4-tag&quot;&gt;This is an &amp;lt;h4&amp;gt; tag&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-an-h5-tag&quot;&gt;This is an &amp;lt;h5&amp;gt; tag&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-an-h6-tag&quot;&gt;This is an &amp;lt;h6&amp;gt; tag&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic text*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Bold text**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~Strikethrough text~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Combine: &lt;strong&gt;&lt;em&gt;bold + italic&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;bold + &lt;em&gt;italic&lt;/em&gt; + &lt;del&gt;strikethrough&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2a&lt;/li&gt;
-      &lt;li&gt;Item 2b&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Item 1
-2. Item 2
-   1. Item 3a
-   2. Item 3b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ol&gt;
-      &lt;li&gt;Item 3a&lt;/li&gt;
-      &lt;li&gt;Item 3b&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[This is a Link](http://buiquangbao.github.io/)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;http://buiquangbao.github.io/&quot;&gt;This is a Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; “Your time is limited, so don’t waste it living someone else’s life.”&amp;lt;br&amp;gt;
-&amp;gt; Steve Jobs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Your time is limited, so don’t waste it living someone else’s life.”&lt;br /&gt;
-Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are 3 important files: `index.html`, `styles.css` and `scripts.js`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There are 3 important files: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scripts.js&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;
-&lt;pre&gt;
-&lt;div class=&quot;highlight&quot;&gt;
-```javascript
-function plus(p1, p2) {
-  return p1 + p2;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-27T18:15:28+07:00</updated><id>/feed.xml</id><title type="html">Creatoper</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Publish your package to npm</title><link href="/publish-your-package" rel="alternate" type="text/html" title="Publish your package to npm" /><published>2021-03-25T20:00:00+07:00</published><updated>2021-03-25T20:00:00+07:00</updated><id>/publish-your-package</id><content type="html" xml:base="/publish-your-package">&lt;style&gt;
+.youtube {
+    width: 100%; height: 46.87vw;
+    border: none; background: transparent;
+} @media only screen and (min-width: 768px) {
+    .youtube {
+        width: 42vw; height: 23.625vw;
+    }
 }
-```
-&lt;/div&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/style&gt;
+
+&lt;iframe class=&quot;youtube&quot; src=&quot;https://www.youtube.com/embed/lxxndOskI1o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;1-open-command-line-and-navigate-to-your-packages-folder&quot;&gt;1. Open command line and navigate to your package’s folder&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cmd
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| First   | Second  | Third   |
-| ------- | ------- | ------- |
-| Content | Content | Content |
-| Content | Content | Content |
+&lt;h3 id=&quot;2-login-your-npm-account&quot;&gt;2. Login your npm account&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm login
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First&lt;/th&gt;
-      &lt;th&gt;Second&lt;/th&gt;
-      &lt;th&gt;Third&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Note that when you input the password, there is no clue show that you are typing. This will be confused if this is the first time you use the command line.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] this is a complete item
-- [x] this is a complete item
-- [ ] this is an incomplete item
+&lt;h3 id=&quot;3-initialize-npm-package-manager&quot;&gt;3. Initialize npm package manager&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm init
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;this is an incomplete item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="markdown" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.</summary></entry><entry><title type="html">Adipiscing lorem ipsum dolor sit amet imperdiet</title><link href="/post-1" rel="alternate" type="text/html" title="Adipiscing lorem ipsum dolor sit amet imperdiet" /><published>2021-03-24T09:50:00+07:00</published><updated>2021-03-24T09:50:00+07:00</updated><id>/post-1</id><content type="html" xml:base="/post-1">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
+&lt;p&gt;If you have prepared your package like &lt;a href=&quot;/prepare-your-package&quot;&gt;this post&lt;/a&gt;, all you need to do is just enter.&lt;/p&gt;
 
-&lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
+&lt;p&gt;Finally, type&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is an &amp;lt;h1&amp;gt; tag
-## This is an &amp;lt;h2&amp;gt; tag
-### This is an &amp;lt;h3&amp;gt; tag
-#### This is an &amp;lt;h4&amp;gt; tag
-##### This is an &amp;lt;h5&amp;gt; tag
-###### This is an &amp;lt;h6&amp;gt; tag
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yes
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h1 id=&quot;this-is-an-h1-tag&quot;&gt;This is an &amp;lt;h1&amp;gt; tag&lt;/h1&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h2 id=&quot;this-is-an-h2-tag&quot;&gt;This is an &amp;lt;h2&amp;gt; tag&lt;/h2&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h3 id=&quot;this-is-an-h3-tag&quot;&gt;This is an &amp;lt;h3&amp;gt; tag&lt;/h3&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h4 id=&quot;this-is-an-h4-tag&quot;&gt;This is an &amp;lt;h4&amp;gt; tag&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-an-h5-tag&quot;&gt;This is an &amp;lt;h5&amp;gt; tag&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-an-h6-tag&quot;&gt;This is an &amp;lt;h6&amp;gt; tag&lt;/h6&gt;
+&lt;h3 id=&quot;4-publish-your-package&quot;&gt;4. Publish your package&lt;/h3&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic text*
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm publish
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Bold text**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you see the line&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~Strikethrough text~~
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+ your-pkg-name@1.0.1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Combine: &lt;strong&gt;&lt;em&gt;bold + italic&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;bold + &lt;em&gt;italic&lt;/em&gt; + &lt;del&gt;strikethrough&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;your package has been published on npm successfully!&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;If there is any error, you should:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2a&lt;/li&gt;
-      &lt;li&gt;Item 2b&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;Check your package’s name, it maybe used by other user (for example: you can’t name your package &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;react&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vue&lt;/code&gt;). In this case, you should change your package’s name, or publish your package under your name or organization’s name.&lt;/li&gt;
+  &lt;li&gt;Check your folder’s structure, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file, see &lt;a href=&quot;/prepare-your-package&quot;&gt;this post&lt;/a&gt; again.&lt;/li&gt;
+  &lt;li&gt;Check your npm account.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="npm" /><summary type="html"></summary></entry><entry><title type="html">Prepare your package</title><link href="/prepare-your-package" rel="alternate" type="text/html" title="Prepare your package" /><published>2021-03-24T20:00:00+07:00</published><updated>2021-03-24T20:00:00+07:00</updated><id>/prepare-your-package</id><content type="html" xml:base="/prepare-your-package">&lt;h3 id=&quot;1-put-all-your-packages-files-in-1-folder&quot;&gt;1. Put all your package’s files in 1 folder&lt;/h3&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Item 1
-2. Item 2
-   1. Item 3a
-   2. Item 3b
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;📁your-pkg-name
+├── 📁your-pkg-name-01
+├── 📁your-pkg-name-02
+└── 📁your-pkg-name-03
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ol&gt;
-      &lt;li&gt;Item 3a&lt;/li&gt;
-      &lt;li&gt;Item 3b&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[This is a Link](http://buiquangbao.github.io/)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;http://buiquangbao.github.io/&quot;&gt;This is a Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; “Your time is limited, so don’t waste it living someone else’s life.”&amp;lt;br&amp;gt;
-&amp;gt; Steve Jobs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Your time is limited, so don’t waste it living someone else’s life.”&lt;br /&gt;
-Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are 3 important files: `index.html`, `styles.css` and `scripts.js`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There are 3 important files: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scripts.js&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;
-&lt;pre&gt;
-&lt;div class=&quot;highlight&quot;&gt;
-```javascript
-function plus(p1, p2) {
-  return p1 + p2;
-}
-```
-&lt;/div&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| First   | Second  | Third   |
-| ------- | ------- | ------- |
-| Content | Content | Content |
-| Content | Content | Content |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First&lt;/th&gt;
-      &lt;th&gt;Second&lt;/th&gt;
-      &lt;th&gt;Third&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] this is a complete item
-- [x] this is a complete item
-- [ ] this is an incomplete item
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;this is an incomplete item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="tutorial" /><category term="web" /><category term="markdown" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.</summary></entry><entry><title type="html">Consectetur adipiscing elit tincidunt</title><link href="/post-2" rel="alternate" type="text/html" title="Consectetur adipiscing elit tincidunt" /><published>2021-03-23T09:50:00+07:00</published><updated>2021-03-23T09:50:00+07:00</updated><id>/post-2</id><content type="html" xml:base="/post-2">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is an &amp;lt;h1&amp;gt; tag
-## This is an &amp;lt;h2&amp;gt; tag
-### This is an &amp;lt;h3&amp;gt; tag
-#### This is an &amp;lt;h4&amp;gt; tag
-##### This is an &amp;lt;h5&amp;gt; tag
-###### This is an &amp;lt;h6&amp;gt; tag
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;this-is-an-h1-tag&quot;&gt;This is an &amp;lt;h1&amp;gt; tag&lt;/h1&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h2 id=&quot;this-is-an-h2-tag&quot;&gt;This is an &amp;lt;h2&amp;gt; tag&lt;/h2&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h3 id=&quot;this-is-an-h3-tag&quot;&gt;This is an &amp;lt;h3&amp;gt; tag&lt;/h3&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h4 id=&quot;this-is-an-h4-tag&quot;&gt;This is an &amp;lt;h4&amp;gt; tag&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-an-h5-tag&quot;&gt;This is an &amp;lt;h5&amp;gt; tag&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-an-h6-tag&quot;&gt;This is an &amp;lt;h6&amp;gt; tag&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic text*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Bold text**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~Strikethrough text~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Combine: &lt;strong&gt;&lt;em&gt;bold + italic&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;bold + &lt;em&gt;italic&lt;/em&gt; + &lt;del&gt;strikethrough&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2a&lt;/li&gt;
-      &lt;li&gt;Item 2b&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Item 1
-2. Item 2
-   1. Item 3a
-   2. Item 3b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ol&gt;
-      &lt;li&gt;Item 3a&lt;/li&gt;
-      &lt;li&gt;Item 3b&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[This is a Link](http://buiquangbao.github.io/)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;http://buiquangbao.github.io/&quot;&gt;This is a Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; “Your time is limited, so don’t waste it living someone else’s life.”&amp;lt;br&amp;gt;
-&amp;gt; Steve Jobs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Your time is limited, so don’t waste it living someone else’s life.”&lt;br /&gt;
-Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are 3 important files: `index.html`, `styles.css` and `scripts.js`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There are 3 important files: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scripts.js&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;
-&lt;pre&gt;
-&lt;div class=&quot;highlight&quot;&gt;
-```javascript
-function plus(p1, p2) {
-  return p1 + p2;
-}
-```
-&lt;/div&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| First   | Second  | Third   |
-| ------- | ------- | ------- |
-| Content | Content | Content |
-| Content | Content | Content |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First&lt;/th&gt;
-      &lt;th&gt;Second&lt;/th&gt;
-      &lt;th&gt;Third&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] this is a complete item
-- [x] this is a complete item
-- [ ] this is an incomplete item
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;this is an incomplete item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="experience" /><category term="web" /><category term="markdown" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.</summary></entry><entry><title type="html">Maecenas id imperdiet odio molestie</title><link href="/post-3" rel="alternate" type="text/html" title="Maecenas id imperdiet odio molestie" /><published>2021-03-22T09:50:00+07:00</published><updated>2021-03-22T09:50:00+07:00</updated><id>/post-3</id><content type="html" xml:base="/post-3">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is an &amp;lt;h1&amp;gt; tag
-## This is an &amp;lt;h2&amp;gt; tag
-### This is an &amp;lt;h3&amp;gt; tag
-#### This is an &amp;lt;h4&amp;gt; tag
-##### This is an &amp;lt;h5&amp;gt; tag
-###### This is an &amp;lt;h6&amp;gt; tag
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;this-is-an-h1-tag&quot;&gt;This is an &amp;lt;h1&amp;gt; tag&lt;/h1&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h2 id=&quot;this-is-an-h2-tag&quot;&gt;This is an &amp;lt;h2&amp;gt; tag&lt;/h2&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h3 id=&quot;this-is-an-h3-tag&quot;&gt;This is an &amp;lt;h3&amp;gt; tag&lt;/h3&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h4 id=&quot;this-is-an-h4-tag&quot;&gt;This is an &amp;lt;h4&amp;gt; tag&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-an-h5-tag&quot;&gt;This is an &amp;lt;h5&amp;gt; tag&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-an-h6-tag&quot;&gt;This is an &amp;lt;h6&amp;gt; tag&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic text*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Bold text**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~Strikethrough text~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Combine: &lt;strong&gt;&lt;em&gt;bold + italic&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;bold + &lt;em&gt;italic&lt;/em&gt; + &lt;del&gt;strikethrough&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2a&lt;/li&gt;
-      &lt;li&gt;Item 2b&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Item 1
-2. Item 2
-   1. Item 3a
-   2. Item 3b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ol&gt;
-      &lt;li&gt;Item 3a&lt;/li&gt;
-      &lt;li&gt;Item 3b&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[This is a Link](http://buiquangbao.github.io/)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;http://buiquangbao.github.io/&quot;&gt;This is a Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; “Your time is limited, so don’t waste it living someone else’s life.”&amp;lt;br&amp;gt;
-&amp;gt; Steve Jobs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Your time is limited, so don’t waste it living someone else’s life.”&lt;br /&gt;
-Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are 3 important files: `index.html`, `styles.css` and `scripts.js`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There are 3 important files: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scripts.js&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;
-&lt;pre&gt;
-&lt;div class=&quot;highlight&quot;&gt;
-```javascript
-function plus(p1, p2) {
-  return p1 + p2;
-}
-```
-&lt;/div&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| First   | Second  | Third   |
-| ------- | ------- | ------- |
-| Content | Content | Content |
-| Content | Content | Content |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First&lt;/th&gt;
-      &lt;th&gt;Second&lt;/th&gt;
-      &lt;th&gt;Third&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] this is a complete item
-- [x] this is a complete item
-- [ ] this is an incomplete item
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;this is an incomplete item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="markdown" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.</summary></entry><entry><title type="html">Etiam quis volutpat mauris tristique</title><link href="/post-4" rel="alternate" type="text/html" title="Etiam quis volutpat mauris tristique" /><published>2021-03-21T09:50:00+07:00</published><updated>2021-03-21T09:50:00+07:00</updated><id>/post-4</id><content type="html" xml:base="/post-4">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is an &amp;lt;h1&amp;gt; tag
-## This is an &amp;lt;h2&amp;gt; tag
-### This is an &amp;lt;h3&amp;gt; tag
-#### This is an &amp;lt;h4&amp;gt; tag
-##### This is an &amp;lt;h5&amp;gt; tag
-###### This is an &amp;lt;h6&amp;gt; tag
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;this-is-an-h1-tag&quot;&gt;This is an &amp;lt;h1&amp;gt; tag&lt;/h1&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h2 id=&quot;this-is-an-h2-tag&quot;&gt;This is an &amp;lt;h2&amp;gt; tag&lt;/h2&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h3 id=&quot;this-is-an-h3-tag&quot;&gt;This is an &amp;lt;h3&amp;gt; tag&lt;/h3&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h4 id=&quot;this-is-an-h4-tag&quot;&gt;This is an &amp;lt;h4&amp;gt; tag&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-an-h5-tag&quot;&gt;This is an &amp;lt;h5&amp;gt; tag&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-an-h6-tag&quot;&gt;This is an &amp;lt;h6&amp;gt; tag&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic text*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Bold text**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~Strikethrough text~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Combine: &lt;strong&gt;&lt;em&gt;bold + italic&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;bold + &lt;em&gt;italic&lt;/em&gt; + &lt;del&gt;strikethrough&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2a&lt;/li&gt;
-      &lt;li&gt;Item 2b&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Item 1
-2. Item 2
-   1. Item 3a
-   2. Item 3b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ol&gt;
-      &lt;li&gt;Item 3a&lt;/li&gt;
-      &lt;li&gt;Item 3b&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[This is a Link](http://buiquangbao.github.io/)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;http://buiquangbao.github.io/&quot;&gt;This is a Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; “Your time is limited, so don’t waste it living someone else’s life.”&amp;lt;br&amp;gt;
-&amp;gt; Steve Jobs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Your time is limited, so don’t waste it living someone else’s life.”&lt;br /&gt;
-Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are 3 important files: `index.html`, `styles.css` and `scripts.js`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There are 3 important files: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scripts.js&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;
-&lt;pre&gt;
-&lt;div class=&quot;highlight&quot;&gt;
-```javascript
-function plus(p1, p2) {
-  return p1 + p2;
-}
-```
-&lt;/div&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| First   | Second  | Third   |
-| ------- | ------- | ------- |
-| Content | Content | Content |
-| Content | Content | Content |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First&lt;/th&gt;
-      &lt;th&gt;Second&lt;/th&gt;
-      &lt;th&gt;Third&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] this is a complete item
-- [x] this is a complete item
-- [ ] this is an incomplete item
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;this is an incomplete item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="markdown" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.</summary></entry><entry><title type="html">Mauris sit amet pretium urna eget</title><link href="/post-5" rel="alternate" type="text/html" title="Mauris sit amet pretium urna eget" /><published>2021-03-20T09:50:00+07:00</published><updated>2021-03-20T09:50:00+07:00</updated><id>/post-5</id><content type="html" xml:base="/post-5">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
+&lt;h3 id=&quot;2-create-a-packagejson-file&quot;&gt;2. Create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file&lt;/h3&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is an &amp;lt;h1&amp;gt; tag
-## This is an &amp;lt;h2&amp;gt; tag
-### This is an &amp;lt;h3&amp;gt; tag
-#### This is an &amp;lt;h4&amp;gt; tag
-##### This is an &amp;lt;h5&amp;gt; tag
-###### This is an &amp;lt;h6&amp;gt; tag
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;📁your-pkg-name
+├── 📁your-pkg-name-01
+├── 📁your-pkg-name-02
+└── 📁your-pkg-name-03
+└── package.json
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h1 id=&quot;this-is-an-h1-tag&quot;&gt;This is an &amp;lt;h1&amp;gt; tag&lt;/h1&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h2 id=&quot;this-is-an-h2-tag&quot;&gt;This is an &amp;lt;h2&amp;gt; tag&lt;/h2&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h3 id=&quot;this-is-an-h3-tag&quot;&gt;This is an &amp;lt;h3&amp;gt; tag&lt;/h3&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h4 id=&quot;this-is-an-h4-tag&quot;&gt;This is an &amp;lt;h4&amp;gt; tag&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-an-h5-tag&quot;&gt;This is an &amp;lt;h5&amp;gt; tag&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-an-h6-tag&quot;&gt;This is an &amp;lt;h6&amp;gt; tag&lt;/h6&gt;
+&lt;h3 id=&quot;3-edit-the-packagejson-file&quot;&gt;3. Edit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file&lt;/h3&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic text*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Bold text**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~Strikethrough text~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Combine: &lt;strong&gt;&lt;em&gt;bold + italic&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;bold + &lt;em&gt;italic&lt;/em&gt; + &lt;del&gt;strikethrough&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2a&lt;/li&gt;
-      &lt;li&gt;Item 2b&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Item 1
-2. Item 2
-   1. Item 3a
-   2. Item 3b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ol&gt;
-      &lt;li&gt;Item 3a&lt;/li&gt;
-      &lt;li&gt;Item 3b&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[This is a Link](http://buiquangbao.github.io/)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;http://buiquangbao.github.io/&quot;&gt;This is a Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; “Your time is limited, so don’t waste it living someone else’s life.”&amp;lt;br&amp;gt;
-&amp;gt; Steve Jobs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Your time is limited, so don’t waste it living someone else’s life.”&lt;br /&gt;
-Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are 3 important files: `index.html`, `styles.css` and `scripts.js`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There are 3 important files: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scripts.js&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;your-pkg-name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1.0.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Write your package's description here.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;main&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;your-pkg-name.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;echo &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &amp;amp;&amp;amp; exit 1&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;keywords&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;your-package-keyword&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Your Name Here&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;license&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;MIT&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="npm" /><summary type="html">1. Put all your package’s files in 1 folder</summary></entry><entry><title type="html">Download Node.js</title><link href="/download-nodejs" rel="alternate" type="text/html" title="Download Node.js" /><published>2021-03-23T08:00:00+07:00</published><updated>2021-03-23T08:00:00+07:00</updated><id>/download-nodejs</id><content type="html" xml:base="/download-nodejs">&lt;h2 id=&quot;what-is-nodejs&quot;&gt;What is &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt;?&lt;/h2&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;
-&lt;pre&gt;
-&lt;div class=&quot;highlight&quot;&gt;
-```javascript
-function plus(p1, p2) {
-  return p1 + p2;
-}
-```
-&lt;/div&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Node.js&lt;/code&gt; is an open-source, cross-platform, back-end JavaScript runtime environment.&lt;/p&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| First   | Second  | Third   |
-| ------- | ------- | ------- |
-| Content | Content | Content |
-| Content | Content | Content |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First&lt;/th&gt;
-      &lt;th&gt;Second&lt;/th&gt;
-      &lt;th&gt;Third&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] this is a complete item
-- [x] this is a complete item
-- [ ] this is an incomplete item
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Node.js&lt;/code&gt; is an &lt;a href=&quot;https://github.com/nodejs&quot;&gt;open source&lt;/a&gt; project and free to use.&lt;/p&gt;
 
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;this is an incomplete item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="markdown" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.</summary></entry><entry><title type="html">In eget arcu mollis, ultricies metus venenatis</title><link href="/post-6" rel="alternate" type="text/html" title="In eget arcu mollis, ultricies metus venenatis" /><published>2021-03-19T09:50:00+07:00</published><updated>2021-03-19T09:50:00+07:00</updated><id>/post-6</id><content type="html" xml:base="/post-6">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Website&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nodejs.org/en/docs/&quot;&gt;Documentation&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# This is an &amp;lt;h1&amp;gt; tag
-## This is an &amp;lt;h2&amp;gt; tag
-### This is an &amp;lt;h3&amp;gt; tag
-#### This is an &amp;lt;h4&amp;gt; tag
-##### This is an &amp;lt;h5&amp;gt; tag
-###### This is an &amp;lt;h6&amp;gt; tag
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/npm/1-nodejs-landing-page.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;this-is-an-h1-tag&quot;&gt;This is an &amp;lt;h1&amp;gt; tag&lt;/h1&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h2 id=&quot;this-is-an-h2-tag&quot;&gt;This is an &amp;lt;h2&amp;gt; tag&lt;/h2&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h3 id=&quot;this-is-an-h3-tag&quot;&gt;This is an &amp;lt;h3&amp;gt; tag&lt;/h3&gt;
-&lt;p&gt;Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
-&lt;h4 id=&quot;this-is-an-h4-tag&quot;&gt;This is an &amp;lt;h4&amp;gt; tag&lt;/h4&gt;
-&lt;h5 id=&quot;this-is-an-h5-tag&quot;&gt;This is an &amp;lt;h5&amp;gt; tag&lt;/h5&gt;
-&lt;h6 id=&quot;this-is-an-h6-tag&quot;&gt;This is an &amp;lt;h6&amp;gt; tag&lt;/h6&gt;
+&lt;h2 id=&quot;download-nodejs&quot;&gt;Download Node.js&lt;/h2&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*Italic text*
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;Download Node.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Bold text**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/npm/2-nodejs-download.png&quot; alt=&quot;Nodejs Download&quot; /&gt;&lt;/p&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="npm" /><summary type="html">What is Node.js?</summary></entry><entry><title type="html">Create an npm account</title><link href="/npm101" rel="alternate" type="text/html" title="Create an npm account" /><published>2021-03-22T20:00:00+07:00</published><updated>2021-03-22T20:00:00+07:00</updated><id>/npm101</id><content type="html" xml:base="/npm101">&lt;h2 id=&quot;what-is-npm&quot;&gt;What is &lt;a href=&quot;https://www.npmjs.com/&quot;&gt;npm&lt;/a&gt;?&lt;/h2&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~Strikethrough text~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough text&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm&lt;/code&gt; is a package manager for the JavaScript programming language.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Combine: ***bold + italic*** or **bold + *italic* + ~~strikethrough~~**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Combine: &lt;strong&gt;&lt;em&gt;bold + italic&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;bold + &lt;em&gt;italic&lt;/em&gt; + &lt;del&gt;strikethrough&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm&lt;/code&gt; is the command line client that allows developers to install and publish packages - packaged modules of code.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ul&gt;
-      &lt;li&gt;Item 2a&lt;/li&gt;
-      &lt;li&gt;Item 2b&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm&lt;/code&gt; is an &lt;a href=&quot;https://github.com/npm&quot;&gt;open source&lt;/a&gt; project and free to use.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Item 1
-2. Item 2
-   1. Item 3a
-   2. Item 3b
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2
-    &lt;ol&gt;
-      &lt;li&gt;Item 3a&lt;/li&gt;
-      &lt;li&gt;Item 3b&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://npmjs.com/&quot;&gt;Website&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Alt Text](https://images.unsplash.com/photo-1535952548450-d7447587e733)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.npmjs.com/&quot;&gt;Documentation&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[This is a Link](http://buiquangbao.github.io/)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;http://buiquangbao.github.io/&quot;&gt;This is a Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/npm/1-npm-landing-page.png&quot; alt=&quot;NPM Landing Page&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; “Your time is limited, so don’t waste it living someone else’s life.”&amp;lt;br&amp;gt;
-&amp;gt; Steve Jobs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Your time is limited, so don’t waste it living someone else’s life.”&lt;br /&gt;
-Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;!-- ![NPM Documents](./assets/img/npm/2-npm-docs.png) --&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There are 3 important files: `index.html`, `styles.css` and `scripts.js`
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There are 3 important files: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scripts.js&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;create-an-npm-account&quot;&gt;Create an npm account&lt;/h2&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;
-&lt;pre&gt;
-&lt;div class=&quot;highlight&quot;&gt;
-```javascript
-function plus(p1, p2) {
-  return p1 + p2;
-}
-```
-&lt;/div&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.npmjs.com/signup&quot;&gt;Sign Up&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;p2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/npm/3-npm-sign-up.png&quot; alt=&quot;NPM Sign Up&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| First   | Second  | Third   |
-| ------- | ------- | ------- |
-| Content | Content | Content |
-| Content | Content | Content |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.npmjs.com/login&quot;&gt;Login&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First&lt;/th&gt;
-      &lt;th&gt;Second&lt;/th&gt;
-      &lt;th&gt;Third&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-      &lt;td&gt;Content&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/npm/4-npm-sign-in.png&quot; alt=&quot;NPM Sign In&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [x] this is a complete item
-- [x] this is a complete item
-- [ ] this is an incomplete item
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Dashboard&lt;/p&gt;
 
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;this is a complete item&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;this is an incomplete item&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="markdown" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.</summary></entry><entry><title type="html">Suspendisse sit dolor laoreet quam tempus</title><link href="/post-7" rel="alternate" type="text/html" title="Suspendisse sit dolor laoreet quam tempus" /><published>2021-03-18T09:50:00+07:00</published><updated>2021-03-18T09:50:00+07:00</updated><id>/post-7</id><content type="html" xml:base="/post-7">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./assets/img/npm/5-npm-dashboard.png&quot; alt=&quot;NPM Dashboard&quot; /&gt;&lt;/p&gt;</content><author><name>Bui Quang Bao</name></author><category term="technology" /><category term="web" /><category term="npm" /><summary type="html">What is npm?</summary></entry><entry><title type="html">All markdown syntax</title><link href="/all-markdown-syntax" rel="alternate" type="text/html" title="All markdown syntax" /><published>2021-03-20T09:50:00+07:00</published><updated>2021-03-20T09:50:00+07:00</updated><id>/all-markdown-syntax</id><content type="html" xml:base="/all-markdown-syntax">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.&lt;/p&gt;
 
 &lt;p&gt;Vestibulum ac sodales nisi, et malesuada tellus. Mauris eu nibh tortor. Aenean egestas enim in est imperdiet, in posuere arcu facilisis. Donec rutrum elit vitae sodales congue. Suspendisse sit amet dolor laoreet quam tempus rhoncus. Morbi viverra diam eu orci convallis, id sollicitudin justo blandit. Curabitur mattis dolor non ex rutrum, a auctor nisi malesuada.&lt;/p&gt;
 

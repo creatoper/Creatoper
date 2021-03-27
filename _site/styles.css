@@ -282,8 +282,9 @@ a {
     pointer-events: none; */
 }
 .content a {
-    font-size: var(--content-font-size);
+    /* font-size: var(--content-font-size); */
     margin-bottom: 12px;
+    font-weight: inherit;
     /* -webkit-user-select: all;
     -khtml-user-select: all;
     -moz-user-select: all;

@@ -1,0 +1,37 @@
+I"<h3 id="1-put-all-your-packages-files-in-1-folder">1. Put all your package’s files in 1 folder</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>📁your-pkg-name
+├── 📁your-pkg-name-01
+├── 📁your-pkg-name-02
+└── 📁your-pkg-name-03
+</code></pre></div></div>
+
+<h3 id="2-create-a-packagejson-file">2. Create a <code class="language-plaintext highlighter-rouge">package.json</code> file</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>📁your-pkg-name
+├── 📁your-pkg-name-01
+├── 📁your-pkg-name-02
+└── 📁your-pkg-name-03
+└── package.json
+</code></pre></div></div>
+
+<h3 id="3-edit-the-packagejson-file">3. Edit the <code class="language-plaintext highlighter-rouge">package.json</code> file</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-pkg-name"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Write your package's description here."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"main"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-pkg-name.js"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> 
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"test"</span><span class="p">:</span><span class="w"> </span><span class="s2">"echo </span><span class="se">\"</span><span class="s2">Error</span><span class="se">\"</span><span class="s2"> &amp;&amp; exit 1"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"keywords"</span><span class="p">:</span><span class="w"> 
+    </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"your-package-keyword"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Your Name Here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"license"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MIT"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+:ET

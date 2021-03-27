@@ -1,0 +1,10 @@
+I"Õ<h3 id="1-open-command-line-and-navigate-to-your-packages-folder">1. Open command line and navigate to your packageâ€™s folder</h3>
+
+<h3 id="2-login-your-npm-account">2. Login your npm account</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm login
+</code></pre></div></div>
+
+<h3 id="3-edit-the-packagejson-file">3. Edit the <code class="language-plaintext highlighter-rouge">package.json</code> file</h3>
+
+:ET

@@ -1,0 +1,23 @@
+I"R<h2 id="what-is-npm">What is <a href="https://www.npmjs.com/">npm</a>?</h2>
+
+<p><code class="language-plaintext highlighter-rouge">npm</code> is a package manager for the JavaScript programming language.</p>
+
+<p><code class="language-plaintext highlighter-rouge">npm</code> is the command line client that allows developers to install and publish packages - packaged modules of code.</p>
+
+<p><code class="language-plaintext highlighter-rouge">npm</code> is an <a href="https://github.com/npm">open source</a> project and free to use.</p>
+
+<p><strong><a href="https://npmjs.com/">Website</a></strong>
+<strong><a href="https://docs.npmjs.com/">Documentation</a></strong></p>
+
+<p><img src="./assets/img/npm/1-npm-landing-page.png" alt="NPM Landing Page" /></p>
+
+<!-- ![NPM Documents](./assets/img/npm/2-npm-docs.png) -->
+
+<h2 id="create-an-npm-account">Create an npm account</h2>
+
+<p><img src="./assets/img/npm/3-npm-sign-up.png" alt="NPM Sign Up" /></p>
+
+<p><img src="./assets/img/npm/4-npm-sign-in.png" alt="NPM Sign In" /></p>
+
+<p><img src="./assets/img/npm/5-npm-dashboard.png" alt="NPM Dashboard" /></p>
+:ET

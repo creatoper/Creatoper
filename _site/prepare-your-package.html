@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prepare your package</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+    <link rel="shortcut icon" href="../favicon.png">
+    <!-- Jekyll -->
+    
+    
+
+
+
+
+
+    
+    <!-- PWA -->
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff0000" />
+    <link rel="apple-touch-icon" href="../assets/apple-icon-180.png">
+    <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Stylesheet -->
+    <!-- <link href="../creatoper/creatoper.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/creatoper@1.1.4/creatoper.css" rel="stylesheet">
+    <link href="../creatoper/creatoper-control.css" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Scroll To Top  -->
+    <div class="just-display-on-desktop">
+        <button onclick="scrollToTop()" id="scrolltotop" class="just-display-on-desktop">&nwarr;</button>
+    </div>
+
+    <!-- Top Nav on mobile -->
+    <div class="top-nav just-display-on-mobile">
+        <div
+            style="font-size: 24px; font-weight: 600; top: calc(12px + var(--offset-top));text-align: center; position: relative;">
+            Creatoper
+        </div>
+    </div>
+
+    <!-- Bottom Nav on mobile -->
+    <div class="bottom-nav just-display-on-mobile">
+        <div class="mobile-row-3">
+            <div class="col">
+                <a href="/">
+                    <div class="nav-button">
+                        <img src="../assets/icons/bookmark.svg" class="nav-icon">
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="/">
+                    <div class="nav-button">
+                        <img src="../assets/icons/home.svg" class="nav-icon">
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="/">
+                    <div class="nav-button">
+                        <img src="../assets/icons/user.svg" class="nav-icon">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <div class="side-panel-wrap">
+                <div class="side-panel-left">
+                    <a href="/" style="border: none;" class="just-display-on-desktop">
+                        <img src="../favicon.png" class="logo">
+                    </a>
+                    <div id="youarereadingID" class="youarereading hide">
+                        <div style="margin-bottom: 1vh; font-size: 13px;">
+                            You are reading
+                        </div>
+                        <h4 style="margin-bottom: 1vh;">
+                            Prepare your package
+                        </h4>
+                        <div style="font-size: 13px; margin-bottom: 1vh;">
+                            By
+                            <a href="https://buiquangbao.github.io/" target="_blank" style="border: none;">
+                                Bui Quang Bao
+                            </a>
+                            | March 24, 2021
+                        </div>
+                        <div style="margin-bottom: 1vh;">
+                            
+                            
+                            <a href="/tag/technology" style="border: none;">
+                                <mark class="tag-2">
+                                    technology
+                                </mark>
+                            </a>
+                            
+                            
+                            <a href="/tag/web" style="border: none;">
+                                <mark class="tag-2">
+                                    web
+                                </mark>
+                            </a>
+                            
+                            
+                            <a href="/tag/npm" style="border: none;">
+                                <mark class="tag-2">
+                                    npm
+                                </mark>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <script>
+                        youarereadingID = document.getElementById("youarereadingID");
+                        var myScrollFunc = function () {
+                            var y = window.scrollY;
+                            if (y >= 500) {
+                                youarereadingID.className = "youarereading show"
+                            } else {
+                                youarereadingID.className = "youarereading hide"
+                            }
+                        };
+                        window.addEventListener("scroll", myScrollFunc);
+                    </script>
+                </div>
+            </div>
+            &nbsp;
+        </div>
+        <div class="col-6">
+            <div class="main-panel">
+                <div style="height: 10vh;"></div>
+                <div style="margin-bottom: 3vh;">
+                    
+                    
+                    <a href="/tag/technology" style="border: none;">
+                        <mark class="tag">
+                            technology
+                        </mark>
+                    </a>
+                    
+                    
+                    <a href="/tag/web" style="border: none;">
+                        <mark class="tag">
+                            web
+                        </mark>
+                    </a>
+                    
+                    
+                    <a href="/tag/npm" style="border: none;">
+                        <mark class="tag">
+                            npm
+                        </mark>
+                    </a>
+                    
+                </div>
+                <h1 style="margin-bottom: 3vh;">Prepare your package</h1>
+                <div style="font-size: 14px; margin-bottom: 3vh;">
+                    By
+                    <a href="https://buiquangbao.github.io/" target="_blank" style="border: none;">
+                        Bui Quang Bao
+                    </a>
+                    | March 24, 2021
+                </div>
+                <div class="content">
+                    <h3 id="1-put-all-your-packages-files-in-1-folder">1. Put all your package’s files in 1 folder</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>📁your-pkg-name
+├── 📁your-pkg-name-01
+├── 📁your-pkg-name-02
+└── 📁your-pkg-name-03
+</code></pre></div></div>
+
+<h3 id="2-create-a-packagejson-file">2. Create a <code class="language-plaintext highlighter-rouge">package.json</code> file</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>📁your-pkg-name
+├── 📁your-pkg-name-01
+├── 📁your-pkg-name-02
+└── 📁your-pkg-name-03
+└── package.json
+</code></pre></div></div>
+
+<h3 id="3-edit-the-packagejson-file">3. Edit the <code class="language-plaintext highlighter-rouge">package.json</code> file</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-pkg-name"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Write your package's description here."</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"main"</span><span class="p">:</span><span class="w"> </span><span class="s2">"your-pkg-name.js"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> 
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"test"</span><span class="p">:</span><span class="w"> </span><span class="s2">"echo </span><span class="se">\"</span><span class="s2">Error</span><span class="se">\"</span><span class="s2"> &amp;&amp; exit 1"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"keywords"</span><span class="p">:</span><span class="w"> 
+    </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"your-package-keyword"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Your Name Here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"license"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MIT"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+                </div>
+                <div style="margin: 6vh 0; height: 0.5px; width: 100%; background: var(--grey-line);"></div>
+                <p style="margin-bottom: 7vh; text-align: center;">
+                    <a href="/" style="font-weight: 400; border: none;">
+                        <script>document.write(new Date().getFullYear())</script>
+                        &copy;
+                        Creatoper
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="side-panel-wrap">
+                <div class="side-panel-right">
+                    <div style="margin-bottom: 2vh;">
+                        <div style="font-weight: 500;">
+                            NPM101
+                        </div>
+                        <div style="font-size: 13px;">
+                            
+                            
+                            Publishing NPM Package
+                            
+                        </div>
+                    </div>
+                    <ol style="margin-bottom: 2vh;">
+                        
+                        <a href="/all-markdown-syntax" style="text-decoration: none; font-weight: 400;">
+                            <div class="post-in-series" style="
+                             display: none; 
+                            ">
+                                <li style="
+                                
+                                ">
+                                    All markdown syntax
+                                </li>
+                            </div>
+                        </a>
+                        
+                        <a href="/npm101" style="text-decoration: none; font-weight: 400;">
+                            <div class="post-in-series" style="
+                            
+                            ">
+                                <li style="
+                                
+                                ">
+                                    Create an npm account
+                                </li>
+                            </div>
+                        </a>
+                        
+                        <a href="/download-nodejs" style="text-decoration: none; font-weight: 400;">
+                            <div class="post-in-series" style="
+                            
+                            ">
+                                <li style="
+                                
+                                ">
+                                    Download Node.js
+                                </li>
+                            </div>
+                        </a>
+                        
+                        <a href="/prepare-your-package" style="text-decoration: none; font-weight: 400;">
+                            <div class="post-in-series" style="
+                            
+                            ">
+                                <li style="
+                                 color: var(--accent); font-weight: 500;
+                                ">
+                                    Prepare your package
+                                </li>
+                            </div>
+                        </a>
+                        
+                        <a href="/publish-your-package" style="text-decoration: none; font-weight: 400;">
+                            <div class="post-in-series" style="
+                            
+                            ">
+                                <li style="
+                                
+                                ">
+                                    Publish your package to npm
+                                </li>
+                            </div>
+                        </a>
+                        
+                    </ol>
+                    <p style="font-size: 13px; margin-bottom: 6px;">
+                        Dark Mode
+                    </p>
+                    <div class="darkmode-button">
+                        <input type="checkbox" id="darkmodeCheck">
+                        <span></span>
+                        <label for="darkmodeCheck">&nbsp;</label>
+                    </div>
+                    <div style="height: 10vh;"></div>
+                </div>
+            </div>
+            &nbsp;
+        </div>
+    </div>
+
+    <!-- <br>
+    <div>Post.html</div>
+    <div id="test-scripts">> Error!</div>
+    <div id="test-creatoper">> Error!</div>
+    <div id="test-styles">> Green: styles.css load successfully!</div>
+    <div id="test-creatopercss">> Green: creatoper.css load successfully!</div>
+    <div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
+    <br> -->
+
+
+
+
+    <script>
+    // Darkmode
+    function enableDarkMode() {
+        document.body.classList.add("darkmode");
+        localStorage.setItem("isDarkMode", "true");
+        document.getElementById("darkmodeCheck").checked = true;
+    }
+    function disableDarkMode() {
+        document.body.classList.remove("darkmode");
+        localStorage.setItem("isDarkMode", "false");
+        document.getElementById("darkmodeCheck").checked = false;
+    }
+    let isDarkMode = localStorage.getItem("isDarkMode");
+    if (isDarkMode === "true") {
+        enableDarkMode();
+        document.getElementById("darkmodeCheck").checked = true;
+    }
+    const darkmodeButton = document.querySelector(".darkmode-button");
+    darkmodeButton.addEventListener("click", function () {
+        isDarkMode = localStorage.getItem("isDarkMode");
+        isDarkMode === "true" ? disableDarkMode() : enableDarkMode();
+    });
+</script>
+
+<!-- <script src="../darkmode.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- <script src="https://kit.fontawesome.com/0422542145.js" crossorigin="anonymous"></script> -->
+<script src="https://unpkg.com/creatoper@1.1.4/creatoper.js" defer></script>
+<!-- <script src="../creatoper/creatoper.js" defer></script> -->
+<script src="../scripts.js" defer></script>
+</body>
+
+</html>
