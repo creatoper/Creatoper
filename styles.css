@@ -163,7 +163,7 @@ a {
 
 
 .top-nav {
-    --offset-top: 20px;
+    --offset-top: 0px;
     --top-nav-height: calc(54px + var(--offset-top));
     --icon-size: 24px;
     z-index: 10;
