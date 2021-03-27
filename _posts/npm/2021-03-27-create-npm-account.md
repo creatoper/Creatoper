@@ -9,8 +9,10 @@ series: NPM101
 preview: "How to publish packages to npm (the way the industry does things)."
 ---
 
-![NPM Landing Page](img/1-npm-landing-page.png)
-![NPM Landing Page](/img/2-npm-docs.png)
-![NPM Landing Page](./img/3-npm-sign-up.png)
-![NPM Landing Page](../img/4-npm-sign-in.png)
-![NPM Landing Page](../_posts/npm/img/5-npm-dashboard.png)
+![NPM Landing Page](./assets/img/npm/1-npm-landing-page.png)
+![NPM Landing Page](./assets/img/npm/2-npm-docs.png)
+![NPM Landing Page](./assets/img/npm/3-npm-sign-up.png)
+![NPM Landing Page](../assets/img/npm/4-npm-sign-in.png)
+![NPM Landing Page](../assets/img/npm/5-npm-dashboard.png)
+
+![NPM Landing Page](/assets/img/npm/1-nodejs-landing-page.png)
