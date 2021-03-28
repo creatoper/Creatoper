@@ -173,12 +173,9 @@ a {
     width: 100%;
     height: var(--top-nav-height);
     background: var(--background);
-    box-shadow: 0px 0px 10px 4px #00000010;
+    border-bottom: 0.1px solid #88888825;
+    /* box-shadow: 0px 0px 10px 4px #00000010; */
 }
-
-
-
-
 
 
 .bottom-nav {
@@ -191,7 +188,8 @@ a {
     width: 100%;
     height: var(--nav-height);
     background: var(--background);
-    box-shadow: 0px 0px 10px 4px #00000010;
+    border-top: 0.1px solid #88888825;
+    /* box-shadow: 0px 0px 10px 4px #00000010; */
 }
 .nav-button {
     height: var(--nav-height);
@@ -230,8 +228,19 @@ a {
 
 
 
+.title-wrap .title {
+    text-decoration: underline #80808000;
+    transition: all ease 0.2s;
+} .title-wrap:hover .title {
+    text-decoration: underline var(--text-1);
+}
 
-
+.review {
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--text-2);
+}
 
 
 
@@ -326,6 +335,7 @@ a {
 }
 .content img {
     width: 100%;
+    border-radius: 3px;
 }
 .content blockquote {
     padding-left: 24px;
@@ -363,12 +373,16 @@ a {
 }
 .content ul li {
     position: relative;
+    line-height: 1.5;
+    padding-bottom: 12px;
 }
 .content ol {
     padding: 0 0 0 20px;
 }
 .content ol li {
     position: relative;
+    line-height: 1.5;
+    padding-bottom: 12px;
 }
 
 
@@ -394,10 +408,14 @@ a {
 
 
 /* Dark Mode */
+.darkmode-wrap {
+    position: fixed;
+    bottom: 2vw;
+}
 .darkmode-button
 {
-    --drkbtn-w: 64px;
-    --drkbtn-h: 32px;
+    --drkbtn-w: 48px;
+    --drkbtn-h: 24px;
     position: relative;
     width: var(--drkbtn-w);
     height: var(--drkbtn-h);

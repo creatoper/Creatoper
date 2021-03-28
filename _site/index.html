@@ -39,74 +39,224 @@
 </head>
 
 <body>
+    <!-- Scroll To Top  -->
+<div class="just-display-on-desktop">
+    <button onclick="scrollToTop()" id="scrolltotop" class="just-display-on-desktop">&nwarr;</button>
+</div>
+
+<!-- Top Nav on mobile -->
+<div class="top-nav just-display-on-mobile">
+    <div
+        style="font-size: 24px; font-weight: 600; top: calc(12px + var(--offset-top));text-align: center; position: relative;">
+        Creatoper
+    </div>
+</div>
+
+<!-- Bottom Nav on mobile -->
+<div class="bottom-nav just-display-on-mobile">
+    <div class="mobile-row-3">
+        <div class="col">
+            <a href="/">
+                <div class="nav-button">
+                    <img src="../assets/icons/bookmark.svg" class="nav-icon">
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/">
+                <div class="nav-button">
+                    <img src="../assets/icons/home.svg" class="nav-icon">
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/">
+                <div class="nav-button">
+                    <img src="../assets/icons/user.svg" class="nav-icon">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 
     <div class="row">
-        <div class="col-3">&nbsp;</div>
-        <div class="col-6">
-            <br>
-            <div class="darkmode-button">
-                <input type="checkbox" id="darkmodeCheck">
-                <span></span>
-            </div>
-
-            
-            <br><br>
-            <a href="/tag/technology">
-                technology
-            </a>
-            March 25, 2021
-            <a href="/publish-your-package">
-                <h2>Publish your package to npm</h2>
-            </a>
-            How to publish packages to npm (the way the industry does things).
-            
-            <br><br>
-            <a href="/tag/technology">
-                technology
-            </a>
-            March 24, 2021
-            <a href="/prepare-your-package">
-                <h2>Prepare your package</h2>
-            </a>
-            How to publish packages to npm (the way the industry does things).
-            
-            <br><br>
-            <a href="/tag/technology">
-                technology
-            </a>
-            March 23, 2021
-            <a href="/download-nodejs">
-                <h2>Download Node.js</h2>
-            </a>
-            How to publish packages to npm (the way the industry does things).
-            
-            <br><br>
-            <a href="/tag/technology">
-                technology
-            </a>
-            March 22, 2021
-            <a href="/npm101">
-                <h2>Create an npm account</h2>
-            </a>
-            How to publish packages to npm (the way the industry does things).
-            
-            <br><br>
-            <a href="/tag/technology">
-                technology
-            </a>
-            March 20, 2021
-            <a href="/all-markdown-syntax">
-                <h2>All markdown syntax</h2>
-            </a>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id imperdiet odio. Etiam quis volutpat mauris. Duis ligula lacus, maximus vel est sed, molestie finibus nisl. Aliquam erat volutpat. Mauris sit amet pretium urna, sit amet tristique enim. In eget arcu mollis, ultricies metus venenatis, tincidunt enim.
-            
-        </div>
-        <div class="col-3">&nbsp;</div>
+        <div class="col-3">
+            <div class="side-panel-wrap">
+                <div class="side-panel-left">
+                    <a href="/" style="border: none;" class="just-display-on-desktop">
+                        <img src="../favicon.png" class="logo">
+                    </a>
+                    <!-- <div id="youarereadingID" class="youarereading hide">
+    <div style="margin-bottom: 1vh; font-size: 13px;">
+        You are reading
     </div>
+    <h4 style="margin-bottom: 1vh;">
+        The Journals
+    </h4>
+    <div style="font-size: 13px; margin-bottom: 1vh;">
+        By
+        <a href="" target="_blank" style="border: none;">
+            
+        </a>
+        | 
+    </div>
+    <div style="margin-bottom: 4vh;">
+        
+    </div>
+</div>
+<script>
+    youarereadingID = document.getElementById("youarereadingID");
+    var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 500) {
+            youarereadingID.className = "youarereading show"
+        } else {
+            youarereadingID.className = "youarereading hide"
+        }
+    };
+    window.addEventListener("scroll", myScrollFunc);
+</script> -->
+                    <!-- Dark Mode -->
+<div class="darkmode-wrap just-display-on-desktop">
+    <p style="font-size: 10px; font-weight: 400; margin-bottom: 6px;">
+        Dark Mode
+    </p>
+    <div class="darkmode-button">
+        <input type="checkbox" id="darkmodeCheck">
+        <span></span>
+        <label for="darkmodeCheck">&nbsp;</label>
+    </div>
+</div>
+                </div>
+            </div>
+            &nbsp;
+        </div>
+        <div class="col-6">
+            <div class="main-panel">
+                <div style="height: 10vh;"></div>
+
+
+                
+                <div style="margin-bottom: 2.2vh;">
+                    <a href="/tag/technology" style="border: none;">
+                        <mark class="tag" style="top: -0.5px; position: relative;">
+                            technology
+                        </mark>
+                    </a>
+                    <span style="font-size: 13px; font-weight: 500;">
+                        March 25, 2021
+                    </span>
+                </div>
+                <a href="/publish-your-package" class="title-wrap">
+                    <h2 class="title" style="margin-bottom: 1.5vh;">
+                        Publish your package to npm
+                    </h2>
+                    <div class="review" style="margin-bottom: 5vh;">
+                        How to publish packages to npm (the way the industry does things).
+                    </div>
+                </a>
+
+                
+                <div style="margin-bottom: 2.2vh;">
+                    <a href="/tag/technology" style="border: none;">
+                        <mark class="tag" style="top: -0.5px; position: relative;">
+                            technology
+                        </mark>
+                    </a>
+                    <span style="font-size: 13px; font-weight: 500;">
+                        March 20, 2021
+                    </span>
+                </div>
+                <a href="/all-markdown-syntax" class="title-wrap">
+                    <h2 class="title" style="margin-bottom: 1.5vh;">
+                        All markdown syntax
+                    </h2>
+                    <div class="review" style="margin-bottom: 5vh;">
+                        Markdown is a lightweight markup language for creating formatted text using a plain-text editor.
+                    </div>
+                </a>
+
+                
 
 
 
-
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                Thanks for reading!
+                <div style="margin: 6vh 0; height: 0.5px; width: 100%; background: var(--grey-line);"></div>
+                <p style="margin-bottom: 7vh; text-align: center;">
+                    <a href="/" style="font-weight: 400; border: none;">
+                        <script>document.write(new Date().getFullYear())</script>
+                        &copy;
+                        Creatoper
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="side-panel-wrap">
+                <div class="side-panel-right">
+                    <div style="margin-bottom: 2vh;">
+    <div style="font-weight: 500;">
+        
+    </div>
+    <div style="font-size: 13px;">
+        
+        
+    </div>
+</div>
+<ol style="margin-bottom: 2vh;">
+    
+    <a href="/all-markdown-syntax" style="text-decoration: none; font-weight: 400;">
+        <div class="post-in-series" style="
+         display: none; 
+        ">
+            <li style="
+            
+            ">
+                All markdown syntax
+            </li>
+        </div>
+    </a>
+    
+    <a href="/publish-your-package" style="text-decoration: none; font-weight: 400;">
+        <div class="post-in-series" style="
+         display: none; 
+        ">
+            <li style="
+            
+            ">
+                Publish your package to npm
+            </li>
+        </div>
+    </a>
+    
+</ol>
+<div style="height: 10vh;"></div>
+                </div>
+            </div>
+            &nbsp;
+        </div>
+    </div>
 
 
     <script>
@@ -142,3 +292,13 @@
 </body>
 
 </html>
+
+
+<!-- <br>
+<div>Post.html</div>
+<div id="test-scripts">> Error!</div>
+<div id="test-creatoper">> Error!</div>
+<div id="test-styles">> Green: styles.css load successfully!</div>
+<div id="test-creatopercss">> Green: creatoper.css load successfully!</div>
+<div id="test-creatopercontrol">> Green: creatoper-control.css load successfully!</div>
+<br> -->
